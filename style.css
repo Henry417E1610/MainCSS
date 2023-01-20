@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+  }
+
+  button {
+    background-color: #3882f6;
+    width: 100px;
+  }
+
+  .secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+  }
+  .part2-1 {
+    display: flex;
+    align-items: baseline;
+    align-content: space-evenly;
+    position: relative;
+    justify-content: space-around;
+  }
+
+  .img-with-txt {
+    box-sizing: border-box;
+    width: 200px;
+    height: 250px;
+  }
+
+  .descr {
+    text-align: center;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #1f2937;
+    justify-content: space-between;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .part1 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    vertical-align:top;
+    background-color: #1f2937;
+    padding: 5px;
+  }
+
+  .part3 {
+    background-color: #e5e7eb;
+    padding: 5px;
+  }
+
+  .part3-1 {
+    width: 75%;
+    margin: auto;
+  }
+
+  .right-nav {
+    float: right;
+  }
+
+  h2 {
+    font-size: 36px;
+    font-style: bold;
+    color: #1f2937;
+    text-align: center;
+  }
+
+  .quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+  }
+
+  .author {
+    font-size: 36px;
+
+    color: #1f2937;
+    text-align: right;
+  }
+
+  .topnav a.active {
+    font-size: 24px;
+    color: #F9FAF8;
+
+  }
+  
+  .part4 {
+    margin: auto;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    vertical-align:top;
+    background-color: #3882f6;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  footer {
+    background: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+
+}
