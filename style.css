@@ -6,6 +6,7 @@
 body {
     font-family: 'Roboto', sans-serif;
   }
+  
   h1 {
     font-size: 48px;
     color: #F9FAF8;
@@ -132,6 +133,8 @@ body {
   .suscribe {
     color: #F9FAF8;
   }
+
+  ul { margin:0; }
 
   footer {
     background: #1f2937;
