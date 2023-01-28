@@ -48,29 +48,33 @@ body {
     justify-content: space-around;
   }
 
-  .img-with-txt {
+  figure {
     box-sizing: border-box;
     width: 200px;
     height: 250px;
   }
 
-  .descr {
+  figcaption {
     text-align: center;
   }
 
-  .topnav {
+  header {
     overflow: hidden;
     background-color: #1f2937;
     justify-content: space-between;
   }
   
-  .topnav a {
+  header a {
     float: left;
     color: #f9faf8;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+  }
+
+  header a.active {
+    font-size: 24px;
   }
 
   .part1 {
@@ -97,7 +101,7 @@ body {
     margin: auto;
   }
 
-  .right-nav {
+  nav {
     float: right;
   }
 
@@ -110,11 +114,16 @@ body {
 
   .quote {
     font-size: 36px;
+    color: #1f2937;
+  }
+
+  blockquote {
+    font-size: 36px;
     font-style: italic;
     font-weight: lighter;
     color: #1f2937;
   }
-
+  
   .author {
     font-size: 36px;
 
