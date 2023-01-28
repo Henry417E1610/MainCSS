@@ -5,6 +5,10 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
   }
   
   h1 {
@@ -85,7 +89,7 @@ body {
     padding: 5px;
   }
 
-  .part3-1 {
+  .quotebox {
     width: 75%;
     margin: auto;
   }
