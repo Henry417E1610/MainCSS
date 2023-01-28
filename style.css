@@ -29,6 +29,9 @@ body {
     font-size: 16px;
   }
 
+  .intro{
+    width: 50%;
+  }
   .secondary-signup {
     border: 2px solid #f9faf8;
   }
@@ -77,7 +80,7 @@ body {
     justify-content: space-evenly;
     vertical-align:top;
     background-color: #1f2937;
-    padding: 1px;
+    padding: 1rem;
   }
 
   .part2{
