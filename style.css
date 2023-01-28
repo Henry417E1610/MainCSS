@@ -73,7 +73,11 @@ body {
     justify-content: space-evenly;
     vertical-align:top;
     background-color: #1f2937;
-    padding: 5px;
+    padding: 1px;
+  }
+
+  .part2{
+    padding-bottom: 2.5rem;
   }
 
   .part3 {
@@ -134,7 +138,6 @@ body {
     color: #F9FAF8;
   }
 
-  ul { margin:0; }
 
   footer {
     background: #1f2937;
@@ -143,5 +146,4 @@ body {
     font-size: 1.5rem;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-
 }
